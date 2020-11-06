@@ -1,0 +1,205 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://use.typekit.net/arh5obo.css");
+
+
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+a, a:visited {
+    color:blue;
+
+}
+
+a:hover {
+    text-decoration: none;
+ 
+
+}
+
+.site-title a {
+    color: #000000;
+}
+
+.home-wrapper {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:stretch;
+
+}
+
+.home-wrapper a {
+    text-decoration:underline;
+}
+.home {
+  margin:20px;
+  
+
+    width:45%;
+    
+}
+
+.home h1 {
+    font-size:72px;
+    line-height:1.1;
+    padding-bottom:100px;
+}
+
+.home-text {
+    top:65vh;
+    margin-bottom:200px;
+}
+
+.home-images {
+    height:100vh;
+
+}
+.home-images div {
+    position:fixed;
+top:0;
+right:0;
+
+    height:100%;
+    width:50vw;
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index:-1;
+}
+
+.home-link {
+    z-index:12;
+}
+
+.page-content {
+    margin-bottom:200px;
+}
+.full-wrapper {
+    padding-left: 10px;
+    padding-right:10px;
+ 
+}
+
+.site-footer {
+    position:fixed;
+    bottom:0;
+    height:25vh;
+    background-image: linear-gradient(transparent 20%, white);
+    z-index: 2;
+    padding:0;
+    border-top:none;
+    color: #000000;
+
+}
+
+.site-footer .full-wrapper {
+    display:flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  height:100%;
+    
+}
+
+
+
+.site-nav a {
+    background-color: #EFCCE3;
+    border-radius:80px;
+    padding: 12px;
+    
+}
+
+.super-toggle { 
+    position:fixed;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+    right:30px;
+    top:100px;
+  height: 120px;
+    width:22px;
+    font-size: 9px;
+    transition:1s div ease;
+    z-index:10;
+
+}
+.super {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    height:80px;
+    background-color: #cfcfcf;
+    border: 0px solid #000000;
+    border-radius:15px;
+
+  
+}
+
+.super .circle {
+ 
+background-color:#71E728;
+height:16px;
+width:16px;
+z-index:3;
+margin:2px;
+border-radius:100%;
+
+}
+
+.site-header {
+    border-top:none;
+    margin-top:10px;
+    border-bottom:none;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size:60px;
+}
+
+.post-header h1 {
+    padding-top:100px;
+    font-size:120px;
+    text-align:center;
+    font-family: ten-oldstyle, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hidden {
+    display:none;
+}
+
+.social-links {
+    font-style:italic;
+    position:fixed;
+    background-color:#ffffff;
+  
+}
+
+.footer-col-wrapper {
+    color:#000000;
+}
+
+.header-image {
+    background-image:linear-gradient(red, yellow);
+    
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    background-size: cover;
+    background-position:center;
+}
+
+
+.title-top {
+    display:flex;
+}
+

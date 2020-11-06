@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+
+{{ content }}
+
+<script>
+var homeImage = document.querySelector(".home-images div")
+var homeLink = document.querySelector(".home-link")
+
+homeLink.addEventListener("mouseover", function(){
+
+ 
+    homeImage.style.backgroundImage = "url('/assets/img/nasa.jpg')";
+    homeImage.style.zIndex = "1";
+    
+
+
+  })
+  homeLink.addEventListener("mouseleave", function(){
+      console.log("test")
+    homeImage.style.backgroundImage = "none";
+    homeImage.style.zIndex = "-10";
+  
+
+  })
+
+
+
+</script>

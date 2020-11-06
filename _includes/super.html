@@ -1,0 +1,35 @@
+
+<div class="super-toggle">
+    <div class="max">Max</div>
+    <div class="super">
+        <span class="circle"></span>
+    </div>
+    <div class="min">Min</div>
+</div> 
+
+<script>
+
+
+function superToggle() {
+    var toggle = document.querySelector(".super-toggle")
+    var bar = document.querySelector(".super")
+    var body = document.querySelector("body")
+    var footer = document.querySelector(".site-footer")
+
+    toggle.addEventListener("click", function(){
+        if (bar.style.justifyContent === "flex-start") {
+                bar.style.justifyContent = "flex-end";
+                body.style.background = "#ffffff";
+        }
+        else {
+          bar.style.justifyContent = "flex-start";
+          body.style.background = "red";
+          
+        }
+    }
+)}
+superToggle(); 
+
+
+
+</script>
