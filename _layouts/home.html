@@ -8,6 +8,7 @@ layout: default
 <script>
 var homeImage = document.querySelector(".home-images div")
 var homeLink = document.querySelector(".home-link")
+var homeLinkTwo = document.querySelector(".home-link-2")
 
 homeLink.addEventListener("mouseover", function(){
 
@@ -25,6 +26,23 @@ homeLink.addEventListener("mouseover", function(){
   
 
   })
+
+  homeLinkTwo.addEventListener("mouseover", function(){
+
+ 
+homeImage.style.backgroundImage = "url('/assets/img/ana-profile.gif')";
+homeImage.style.zIndex = "1";
+
+
+
+})
+homeLinkTwo.addEventListener("mouseleave", function(){
+  console.log("test")
+homeImage.style.backgroundImage = "none";
+homeImage.style.zIndex = "-10";
+
+
+})
 
 
 

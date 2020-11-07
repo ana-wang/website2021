@@ -6,12 +6,16 @@ layout: home
 ---
 <div class="home-wrapper">
     <div class="home home-text">
+      
         <h1>
-            Ana Wang is a writer and producer.
-            </h1>
+                I run tiny <a class="home-link" href="/publications">publications</a> about fashion, creativity and XR.
+        </h1>
         <h1>
-        I run a couple of tiny <a class="home-link" href="/publications">publications</a> about fashion, creativity and XR, and work on immersive content projects at the (also tiny) technology studio I founded, p/et/al. 
-            </h1>
+                I also research and experiment with content and emerging technology for <a class="home-link-2" href="/publications">social and immersive media</a> in fashion, retail, gaming and entertainment.
+        </h1>
+        <h1>
+               More about me <a href="/about">here -></a>
+        </h1>
 
     </div>
 
