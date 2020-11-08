@@ -5,8 +5,8 @@ permalink: /contact/
 navigation_weight: 4
 ---
 
-I'm currently not seeking client projects.
 
-ana@ana-wang.com
 
-IG: ana_et_al
+Email: <a href="mailtoana@ana-wang.com">ana@ana-wang.com</a>
+
+IG: <a href="http://instagram.com/ana_et_al" target="_blank">ana_et_al</a>

@@ -1,10 +1,10 @@
 
 <div class="super-toggle">
-    <div class="max">Max</div>
+    <div class="max">Super</div>
     <div class="super">
         <span class="circle"></span>
     </div>
-    <div class="min">Min</div>
+    <div class="min">Basic</div>
 </div> 
 
 <script>
@@ -14,19 +14,34 @@ function superToggle() {
     var toggle = document.querySelector(".super-toggle")
     var bar = document.querySelector(".super")
     var body = document.querySelector("body")
-    var footer = document.querySelector(".site-footer")
+    var header = document.querySelector(".site-header")
+    var homeText = document.querySelector(".home-text")
+
 
     toggle.addEventListener("click", function(){
+       
         if (bar.style.justifyContent === "flex-start") {
+            var footer = document.querySelector(".site-footer")
                 bar.style.justifyContent = "flex-end";
                 body.style.background = "#ffffff";
+                header.style.backgroundImage = "linear-gradient(white 40%, transparent)";
+                footer.style.backgroundImage = "linear-gradient(transparent, white)";
         }
         else {
-          bar.style.justifyContent = "flex-start";
-        
-       
-        
-          
+
+            var footer = document.querySelector(".site-footer")
+
+            body.style.backgroundSize = "cover";
+            body.style.backgroundPosition = "center";
+            body.style.backgroundAttachment = "fixed";
+            body.style.backgroundImage = "url('/assets/img/clouds.gif')";
+
+            bar.style.justifyContent = "flex-start";
+            header.style.backgroundImage = "linear-gradient(#64BEF9 40%, transparent)";
+            footer.style.backgroundImage = "linear-gradient(transparent, #64BEF9)";
+           
+
+
         }
     }
 )}
