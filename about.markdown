@@ -5,24 +5,15 @@ permalink: /about/
 navigation_weight:  1
 ---
 
-<h1>Hello this is some intro text</h1>
+<h1>Where imagination meets designed reality</h1>
 
-<p>This is some stuff about Ana Wang.</p>
+Hi, I'm Ana. I'm the founder of PTL, a Vancouver-based research and content studio focused on emerging technology and storytelling. Current projects include a couple of tiny publications.
 
-Hi, I'm Brie. I'm the founder and CEO of TRU LUV, a Toronto-based AI company changing our relationship with technology. We make emotionally conscious AI for refuge, resilience and transformation. Our companions are not personal assistants, nor apps nor games, but a new category of human-computer interaction that feels like friendship. TRU LUV was Canada’s first startup to attend Apple Entrepreneur Camp in 2020 and TRU LUV’s first experimental companion, #SelfCare, was one of Apple’s Best of 2018 Trends of the Year selections. 
+Playing with perception, education and metaphor, I produce cross-platform, cross-discipline content that uses aesthetics, the cultural zeitgeist and universalities of the human experience to push for personal and macro transformation. I do this mostly in "soft" and frivolous fields such as fashion, beauty, entertainment and gaming, areas that people typically use as a form of escape and indulgence.
 
-With TRU LUV, I’ve also been sharing my love and creative energy with our dear friends at Rare contributing to their magical project Everwild. 
+My work, both visually and strategically, highlights and celebrates contrast: between soft and hard, art and technology, optimism and reality, the engineered and the imagined, the deep long form and tiny wonderful things. 
 
-I journal on this website about magical consciousness, digital ritual, emotionally conscious AI, diverse and equitable teams, conscious leadership, developmental organizations and other topics that interest me.
+I was trained as a fashion designer but ended up spending most of my career (so far) as a writer and operator, working in between communicating ideas and building them. Over the past decade, I've created media entities, was featured on trend forecasting platforms, won accolades across the internet, and built brands and teams in retail, fashion and tech. Most of all, I've failed a lot, and built a career harnessing the nature of the internet and its ephemerality.
 
-I spent 2015-2020 ___
-
-Previously, I was a lead AI programmer at Ubisoft on the soft, ethereal game Child of Light and three Assassin's Creed games and an AI programmer at Relic Entertainment. I've worked with teams of up to 60 AI developers. 
-
-I'm on Twitter, Instagram, Facebook, and LinkedIn. I've been featured in publications such as The BBC, The Guardian, Mercedes Benz Magazine, The Huffington Post, and VentureBeat.
-
-
-
-
-
+My work has been featured in Huffington Post, Forbes, . 
 

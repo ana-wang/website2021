@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "Free Resources"
-permalink: /free/
+permalink: /articles/
 navigation_weight: 3
 ---
 
