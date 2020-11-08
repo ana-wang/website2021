@@ -25,7 +25,7 @@ Today, almost everything is content, and my particular version of it combines ae
 
 Using existing systems of consumption — social media, fashion, games, entertainment — my vision is to introduce and connect people to ideas about themselves and the world around them, that are more conducive to discoverability, action and ultimately, change.
 
-I've previously done this with brands and projects to scale ideas on sustainability, entrepreneurship and education. 
+I've previously done this with brands and projects to scale ideas on sustainability, entrepreneurship and education. More recently, I've begun a journey to exploring my next focus: escape aka self care, self preservation and self actualization as a path to meaningful growth through interactive worldbuilding and mixed reality. After all, we live in between worlds blending into one for the first time in human history. 
 
 My work, both visually and strategically, highlights and celebrates contrast: between soft and hard, art and technology, optimism and reality, the engineered and the imagined, the deep long form and tiny wonderful things. Growing up in between mountains and ocean during the rise of the internet and democratized media, a core theme of my practice is observing and emphasizing the commonalities between nature and the universe x human-made artificialities and technology, most centrally the ephemeral nature of everything. 
 
