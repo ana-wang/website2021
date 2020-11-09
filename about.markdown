@@ -12,13 +12,6 @@ Hello world, I'm Ana. I'm the founder of PTL, a Vancouver-based content studio f
 
 I research, experiment with and produce content and projects in "soft" industries known for entertainment, escape and indulgence. 
 
-
-
-
-
-
-
-
 <h1>...</h1>
 
 Today, almost everything is content, and my particular version of it combines aesthetics, the cultural zeitgeist and universalities of the human experience to push for personal and macro transformation. 
