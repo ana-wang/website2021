@@ -91,8 +91,12 @@ width:95vw;
    
 }
 .project:hover {
-    box-shadow: 5px 10px #888888;
+    box-shadow: none;
+
+    transform: translate(10px, 10px);
+ 
 }
+
 
 .about {
     width:90%;
@@ -142,6 +146,18 @@ width:95vw;
     margin-right:80px;
     background-color: white;
     margin-top:70px;
+  
+}
+
+.about, .project {
+    box-shadow: 10px 10px 10px #cfcfcf;
+}
+
+.footer {
+    text-align:center;
+    font-family: times;
+    font-size: 12px;
+    margin-top:100px;
 }
 
 .project img {
@@ -155,6 +171,10 @@ width:95vw;
     padding:20px 20px 5px;
     font-size:12px;
 }
+.writing p {
+    font-size:24px; 
+ }
+ 
 .project-images {
     display:flex;
     width:98%;
@@ -165,7 +185,7 @@ width:95vw;
 
 .project-images img {
     width:26%;
-    object-fit:cover;
+    object-fit:contain;
 }
 .home h1 {
     font-size:14px;
@@ -383,13 +403,6 @@ border-radius:100%;
     justify-content:space-between;
 }
 
-li {
-    border: 1px solid #000000;
-    padding:20px;
-    width:30%;
-    height:300px;
-}
-
 
 .home-projects {
     position:fixed;
@@ -471,7 +484,7 @@ li {
 @media (max-width: 800px) {
   .post-header h1 {
     margin-left: 0%;
-    bottom:0;
+    bottom:50px;
     position:absolute;
    }
 .home {
@@ -496,8 +509,10 @@ li {
        height:100vh;
        position:absolute;
        width:100%;
-      bottom:0;
+      top:0;
        left:0;
+    
+       z-index:3;
    }
 
 .work-left, .work-right {
@@ -506,6 +521,11 @@ li {
    .post .post-content {
        position:absolute;
        top:100vh;
+       left:0;
+       z-index:2;
+       height:auto;
+       
+       padding:20px;
    }
    .super-toggle {
        display:none;
@@ -535,4 +555,25 @@ li {
 
 }
 
+}
+
+@media (max-width:500px) {
+    .site-nav {
+        display:none;
+    }
+
+    .post-header h1 {
+        font-size:72px;
+        padding:10px;
+       }
+
+    .post-header {
+        background-color:#ffffff;
+       position:absolute;
+    
+    }
+
+    .post-content {
+        font-size:16px;
+    }
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Shop Better"
+title:  "How to write on the internet"
 date:   2020-11-04 13:02:23 -0800
 categories: 
 ---

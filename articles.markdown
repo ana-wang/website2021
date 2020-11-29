@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /resources/
-title: Resources
 navigation_weight: 3
 ---
 
