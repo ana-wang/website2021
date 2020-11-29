@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello this is a post, what is it about?"
+title:  "How to learn to code"
 date:   2020-11-05 13:02:23 -0800
-categories: jekyll update
+categories: 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

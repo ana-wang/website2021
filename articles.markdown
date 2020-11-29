@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /articles/
+permalink: /resources/
+title: Resources
 navigation_weight: 3
 ---
 

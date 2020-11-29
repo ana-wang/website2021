@@ -7,22 +7,28 @@ layout: home
 <div class="home-wrapper">
     <div class="home home-text">
       
-        <h1>
-                I run tiny <a class="home-link" href="/publications">publications</a>.
-        </h1>
-        <h1>
-                I also research and experiment with content and emerging technology for <a class="home-link-2" href="/publications">social and immersive media</a> in fashion, retail, and interactive entertainment.
-        </h1>
-        <h1>
-               More about me <a href="/about">here -></a>
-        </h1>
-
+    <div class="about">
+         <div class="about-top">Bio</div>
+        <div class="about-text">  {%- include about.html -%}
+         </div>
     </div>
+
+   <div class="work">
+   {%- include home.html -%}
+</div>
+            
+    </div>
+
+
+
 
     <div class="home home-images">
         <div>
+
+      
         </div>
     </div>
 </div>
+
 
 

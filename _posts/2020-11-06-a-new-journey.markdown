@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Notion Shopping Template"
+title:  "How to Shop Better"
 date:   2020-11-04 13:02:23 -0800
-categories: jekyll update
+categories: 
 ---
 Imposter syndrome mixed in with burnout, the only choice I had was to quit. 
 
