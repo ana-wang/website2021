@@ -5,6 +5,7 @@
 @import "minima";
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url("https://use.typekit.net/arh5obo.css");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
 
 
 body {
@@ -558,11 +559,97 @@ border-radius:100%;
 }
 
 
+.post-content {
+    line-height:1.8;
+}
+.post-content h1 {
+    margin-bottom:60px;
+}
+
+
+.guide-intro {
+    font-family: 'times';
+    font-style:italic;
+    margin:30px 0;
+}
+
+
+
+.guide-toc {
+    top:260px;
+    position:fixed;
+    right:20px;
+    font-size:13px;
+    z-index:6;
+    text-transform:uppercase;
+text-align:right;
+}
+
+.guide-grid {
+
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin: 30px 0px;
+}
+
+.guide-grid div {
+    width:30%;
+    
+}
+
+.guide-grid-steps {
+display:flex;
+align-items:flex-start;
+margin-bottom:30px;
+}
+
+.step {
+    width:15%;
+    font-family: lores-12, 'Permanent Marker', cursive;
+    font-size:144px;
+    padding-right:30px;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    text-align:center;
+
+}
+
+.post-section{
+    position:relative;
+}
+
+.post-image {
+    position:absolute;
+    left:-340px;
+    top:0px;
+    max-width:300px;
+    z-index:-1;
+}
 
 
 
 
+.step-content {
+    width: 85%;
+    font-size:14px;
+}
 
+.services-toggle:hover {
+    cursor:pointer;
+}
+
+
+.services-toggle {
+    display:block;
+}
+
+
+
+.hidden {
+    display: none;
+}
 
 
 
@@ -694,3 +781,5 @@ border-radius:100%;
         font-size:16px;
     }
 }
+
+

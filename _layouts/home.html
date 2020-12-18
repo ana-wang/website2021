@@ -7,7 +7,7 @@ layout: default
 
 <script>
 var homeImage = document.querySelector(".home-images div")
-var homeLink = document.querySelector(".home-link")
+/* var homeLink = document.querySelector(".home-link")
 var homeLinkTwo = document.querySelector(".home-link-2")
 
 homeLink.addEventListener("mouseover", function(){
@@ -42,7 +42,22 @@ homeImage.style.backgroundImage = "none";
 homeImage.style.zIndex = "-10";
 
 
-})
+}) */
+
+
+
+
+  const servicesTags = document.querySelectorAll(".services-toggle")
+  const articlesList = document.querySelectorAll(".services-details")
+
+  servicesTags.forEach((tag, index) => {
+    const articles = articlesList[index];
+    tag.addEventListener('click', () => {
+      articles.classList.toggle('hidden')
+     
+    })
+  })
+
 
 
 
