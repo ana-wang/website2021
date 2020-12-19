@@ -51,30 +51,30 @@
 
 <script>
 
-function socialHover() {
-  var siteTitle = document.querySelector(".site-title")
-  var socialLinks = document.querySelector(".social-links")
-  var headerImage = document.querySelector(".header-image")
+      function socialHover() {
+        var siteTitle = document.querySelector(".site-title")
+        var socialLinks = document.querySelector(".social-links")
+        var headerImage = document.querySelector(".header-image")
 
-  siteTitle.addEventListener("mouseover", function(){
-    console.log("test")
-    socialLinks.classList.remove("hidden")
-    headerImage.style.backgroundImage = "url('/assets/img/ana-profile.gif')";
-    
-
-
-  })
-  siteTitle.addEventListener("mouseleave", function(){
-    console.log("test")
-    socialLinks.classList.add("hidden")
-    headerImage.style.backgroundImage = "linear-gradient(red, yellow)";
-  
-
-  })
-}
+        siteTitle.addEventListener("mouseover", function(){
+          console.log("test")
+          socialLinks.classList.remove("hidden")
+          headerImage.style.backgroundImage = "url('/assets/img/ana-profile.gif')";
+          
 
 
-socialHover();
+        })
+        siteTitle.addEventListener("mouseleave", function(){
+          console.log("test")
+          socialLinks.classList.add("hidden")
+          headerImage.style.backgroundImage = "linear-gradient(red, yellow)";
+        
+
+        })
+      }
+
+
+      socialHover();
 
 
 

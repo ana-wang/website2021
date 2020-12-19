@@ -148,7 +148,16 @@ width:95vw;
     margin-right:80px;
     background-color: white;
     margin-top:70px;
+    display:none;
   
+}
+
+.index .filter:hover {
+    cursor:pointer;
+}
+
+.show {
+    display:block;
 }
 
 .about, .project, .values {
@@ -526,6 +535,7 @@ border-radius:100%;
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
+    margin-bottom:60px;
 
 }
 .services, .contact {
@@ -665,7 +675,7 @@ margin-bottom:30px;
 }
 .services-flex {
   flex-wrap:wrap;
- 
+
 
 }
 .services, .contact {
