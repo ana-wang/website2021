@@ -121,5 +121,47 @@ function filters() {
 
 filters();
 
+// allover text for newsletter on hover
+
+function allover() {
+  const adviceColumn = document.querySelector(".advicecolumn")
+  const middleManagement = document.querySelector(".middlemanagement")
+  const insideChanel = document.querySelector(".insidechanel")
+  const allOver = document.querySelector(".allover")
+
+  adviceColumn.addEventListener("mouseover", function(){ 
+    allOver.style.backgroundImage = "url('/assets/img/advicecolumn_text.svg')";
+    allOver.style.zIndex = 1000000;
+  })
+
+  middleManagement.addEventListener("mouseover", function(){ 
+    allOver.style.backgroundImage = "url('/assets/img/middlemanagement_text.svg')";
+    allOver.style.zIndex = 1000000;
+  })
+
+  insideChanel.addEventListener("mouseover", function(){ 
+    allOver.style.backgroundImage = "url('/assets/img/insidechanel_text.svg')";
+    allOver.style.zIndex = 1000000;
+  })
+
+ adviceColumn.addEventListener("mouseleave", function(){
+    allOver.style.backgroundImage = "none";
+    allOver.style.zIndex = "-10";
+  })
+  middleManagement.addEventListener("mouseleave", function(){
+    allOver.style.backgroundImage = "none";
+    allOver.style.zIndex = "-10";
+  })
+  insideChanel.addEventListener("mouseleave", function(){
+    allOver.style.backgroundImage = "none";
+    allOver.style.zIndex = "-10";
+  })
+
+
+
+}
+
+allover();
+
 
 </script>
