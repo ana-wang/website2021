@@ -381,9 +381,17 @@ border-radius:100%;
 
 }
 
+.loading span {
+    overflow: hidden;
+    border-right: .12em solid black;
+    animation: blink-caret .75s step-end infinite;
+    padding-right:3px;
+  
+}
+
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
+    from, to { border-right-color: transparent }
+    50% { border-right-color: black; }
   } 
 
 .hidden {
