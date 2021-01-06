@@ -276,8 +276,8 @@ width:95vw;
     position:fixed;
     bottom:0;
     height:8vh;
-   background-image: linear-gradient(#ffffff 40%, rgba(255,255,255,0));
-   background-image: -webkit-linear-gradient(#ffffff 40%, rgba(255,255,255,0));
+   background-image: linear-gradient(rgba(255,255,255,0), #ffffff);
+   background-image: -webkit-linear-gradient(rgba(255,255,255,0), #ffffff);
     z-index: 1;
     padding:0;
     border-top:none;
@@ -361,6 +361,8 @@ border-radius:100%;
 .site-title {
     text-transform: uppercase;
     font-size:60px;
+
+
 
     
 }
