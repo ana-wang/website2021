@@ -16,6 +16,7 @@ function superToggle() {
     var body = document.querySelector("body")
     var header = document.querySelector(".site-header")
     var homeText = document.querySelector(".home-text")
+    var socialLinks = document.querySelector(".social-links")
 
 
     toggle.addEventListener("click", function(){
@@ -24,8 +25,11 @@ function superToggle() {
             var footer = document.querySelector(".site-footer")
                 bar.style.justifyContent = "flex-end";
                 body.style.background = "#ffffff";
-                header.style.backgroundImage = "linear-gradient(white 40%, transparent)";
-                footer.style.backgroundImage = "linear-gradient(transparent, white)";
+                header.style.backgroundImage = "linear-gradient(#ffffff 50%, rgba(255,255,255,0))";
+                header.style.backgroundImage = "-webkit-linear-gradient(#ffffff 50%, rgba(255,255,255,0))";
+                footer.style.backgroundImage = "linear-gradient(rgba(255,255,255,0), #ffffff)";
+                footer.style.backgroundImage = "-webkit-linear-gradient(rgba(255,255,255,0), #ffffff)";
+                socialLinks.style.backgroundColor = "#ffffff";
         }
         else {
 
@@ -35,12 +39,13 @@ function superToggle() {
             body.style.backgroundPosition = "center";
             body.style.backgroundAttachment = "fixed";
             body.style.backgroundImage = "url('/assets/img/clouds.gif')";
-
             bar.style.justifyContent = "flex-start";
-            header.style.backgroundImage = "linear-gradient(#64BEF9 40%, transparent)";
-            footer.style.backgroundImage = "linear-gradient(transparent, #64BEF9)";
-           
-
+          
+            header.style.backgroundImage = "linear-gradient(#64BEF9 50%, rgba(100, 190, 249, 0))";
+            header.style.backgroundImage = "-webkit-linear-gradient(#64BEF9 50%, rgba(100, 190, 249, 0))";
+            footer.style.backgroundImage = "linear-gradient(rgba(100, 190, 249, 0), #64BEF9)";
+            footer.style.backgroundImage = "-webkit-linear-gradient(rgba(100, 190, 249, 0), #64BEF9)";
+            socialLinks.style.backgroundColor = "#64BEF9";
 
         }
     }

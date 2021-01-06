@@ -161,7 +161,7 @@ width:95vw;
 }
 
 .about, .project, .values {
-    box-shadow: 10px 10px 10px #cfcfcf;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.264);
 }
 
 .footer {
@@ -276,7 +276,8 @@ width:95vw;
     position:fixed;
     bottom:0;
     height:8vh;
-   background-image: linear-gradient(transparent 50%, white);
+   background-image: linear-gradient(#ffffff 40%, rgba(255,255,255,0));
+   background-image: -webkit-linear-gradient(#ffffff 40%, rgba(255,255,255,0));
     z-index: 1;
     padding:0;
     border-top:none;
@@ -350,8 +351,9 @@ border-radius:100%;
     border-bottom:none;
     position:sticky;
     top:0px;
-    height:180px;
-    background-image: linear-gradient( white 40%, transparent);
+    height:100px;
+    background-image: linear-gradient(#ffffff 40%, rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(#ffffff 40%, rgba(255,255,255,0));
     z-index:4;
 
 }
