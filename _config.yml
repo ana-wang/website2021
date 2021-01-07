@@ -21,7 +21,7 @@
 title: ana_et_al
 email: ana@ana-wang.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ana Wang is a writer, coder and designer.
+  Ana Wang is a writer, coder and designer exploring the intersection of transformation, technology and fashion.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://anawang.com" # the base hostname & protocol for your site, e.g. http://example.com
