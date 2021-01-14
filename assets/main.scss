@@ -15,6 +15,10 @@ body {
 
 }
 
+*:hover {
+    border-width:1px;
+}
+
 body.stripped {
     background-color:#F9EAF4;
 }
